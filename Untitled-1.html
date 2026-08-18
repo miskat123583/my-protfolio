@@ -3,94 +3,124 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <title>Miskat Jahan Nupur - Portfolio</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      background-color: #f4f4f4;
+      padding: 0;
+      background: #f4f4f9;
       color: #333;
     }
     header {
-      background: #007bff;
+      background: #4CAF50;
       color: white;
       padding: 20px;
       text-align: center;
     }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
     section {
-      padding: 20px;
-      margin: 20px;
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .card {
       background: white;
+      padding: 20px;
+      margin: 20px 0;
       border-radius: 8px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
-    h2 {
-      color: #007bff;
-    }
-    .projects {
-      display: flex;
-      gap: 20px;
-      flex-wrap: wrap;
-    }
-    .project-card {
-      background: #f9f9f9;
-      padding: 15px;
-      border-radius: 6px;
-      flex: 1 1 45%;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    }
     footer {
+      background: #333;
+      color: white;
       text-align: center;
       padding: 15px;
-      background: #007bff;
-      color: white;
       margin-top: 20px;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>My Portfolio</h1>
-    <p>Web Developer | Designer | Learner</p>
+    <h1>Miskat Jahan Nupur</h1>
+    <p>ID: 111224020 | CCN Technology and Science University | 5th Semester</p>
   </header>
 
-  <section>
-    <h2>About Me</h2>
-    <p>Hello! I am a passionate web developer who loves building creative and functional websites.</p>
-  </section>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-  <section>
-    <h2>Projects</h2>
-    <div class="projects">
-      <div class="project-card">
-        <h3>Project One</h3>
-        <p>Description of project one.</p>
-      </div>
-      <div class="project-card">
-        <h3>Project Two</h3>
-        <p>Description of project two.</p>
-      </div>
+  <section id="about">
+    <div class="card">
+      <h2>About Me</h2>
+      <p>Hello! I am Miskat Jahan Nupur, a passionate Computer Science student currently in my 5th semester at CCN Technology and Science University. I love exploring new technologies, solving problems, and building creative projects.</p>
     </div>
   </section>
 
-  <section>
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML & CSS</li>
-      <li>JavaScript</li>
-      <li>Responsive Design</li>
-      <li>Git & GitHub</li>
-    </ul>
+  <section id="education">
+    <div class="card">
+      <h2>Education</h2>
+      <ul>
+        <li>B.Sc. in Computer Science & Engineering (Ongoing) - CCN Technology and Science University</li>
+        <li>Higher Secondary Certificate (HSC) - Science</li>
+        <li>Secondary School Certificate (SSC) - Science</li>
+      </ul>
+    </div>
   </section>
 
-  <section>
-    <h2>Contact</h2>
-    <p>Email: yourname@example.com</p>
-    <p>GitHub: github.com/yourusername</p>
+  <section id="skills">
+    <div class="card">
+      <h2>Skills</h2>
+      <ul>
+        <li>Programming: C, C++, Java, Python</li>
+        <li>Web Development: HTML, CSS, JavaScript</li>
+        <li>Database: MySQL</li>
+        <li>Problem Solving & Algorithms</li>
+        <li>Teamwork & Communication</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="card">
+      <h2>Projects</h2>
+      <ul>
+        <li>Personal Portfolio Website</li>
+        <li>Library Management System (Java + MySQL)</li>
+        <li>Simple Calculator (Python)</li>
+        <li>Student Result Management System</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="card">
+      <h2>Contact</h2>
+      <p>Email: miskat.nupur@example.com</p>
+      <p>Phone: +8801XXXXXXXXX</p>
+      <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+    </div>
   </section>
 
   <footer>
-    <p>&copy; 2026 My Portfolio</p>
+    <p>© 2026 Miskat Jahan Nupur | Portfolio</p>
   </footer>
 </body>
 </html>
